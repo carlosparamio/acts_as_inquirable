@@ -1,0 +1,8 @@
+== Example
+
+  class Person < ActiveRecord::Base
+    acts_as_inquirable :status
+  end
+
+  person = Person.new(:status => "pending")
+  person.status.pending?  # true
