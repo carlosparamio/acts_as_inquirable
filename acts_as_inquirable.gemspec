@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files    = [
 		"README.rdoc",
 		"acts_as_inquirable.gemspec", 
-		"lib/acts_as_inquirable.rb"
+		"lib/active_record/acts/inquirable.rb"
 	]
   
   s.add_dependency("activesupport",   [">= 2.2.0"])

@@ -6,3 +6,9 @@
 
   person = Person.new(:status => "pending")
   person.status.pending?  # true
+  
+== Credits
+
+Carlos Paramio
+
+http://h1labs.com
